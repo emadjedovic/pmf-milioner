@@ -1,0 +1,186 @@
+.zgrada {
+  background-image: url('images/pmf_zgrada.jpg');
+  background-color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+#glavni-meni {
+  margin: 5rem;
+}
+
+#glavni-meni img {
+  border-radius: 20rem;
+  width: 15rem;
+}
+
+#glavni-meni h1 {
+  margin: 1rem;
+  font-size: xx-large;
+  font-weight: bold;
+  -webkit-text-stroke: 1px rgb(15, 15, 25);
+}
+
+#glavni-meni button {
+  color:white;
+  font-size: large;
+  cursor: pointer;
+
+  margin: 1rem;
+  padding: 0.8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 2px solid lightsteelblue;
+  border-radius: 3rem;
+  background-color: rgb(15, 15, 25);
+}
+
+#kontejner {
+  background-image: url('images/milioner_background.jpg');
+  background-size: 100%;
+}
+
+#kontejner-igre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 5rem;
+  padding-bottom: 12rem;
+
+  border-left: 3px solid rgb(30, 30, 50);
+  border-right: 3px solid rgb(30, 30, 50);
+}
+
+.aside {
+  background-color: rgb(15, 15, 25);
+  font-style: italic;
+  font-size: medium;
+  font-weight: 100;
+  padding: 2rem;
+  padding-top: 2rem;
+  align-items: center;
+}
+
+.aside img {
+  border-radius: 30rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.aside a {
+  font-size: x-large;
+}
+
+.fa {
+  width: 100px;
+  color: white;
+}
+
+#pitanje {
+  margin: 2rem;
+  font-size: large;
+
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 1.8px solid lightsteelblue;
+  border-radius: 0.5rem;
+  background-color: rgb(20, 20, 40);
+}
+
+#odgovori {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+}
+
+#odgovori button {
+  color:white;
+  cursor: pointer;
+
+  margin: 0.5rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 1.8px solid lightsteelblue;
+  border-radius: 0.5rem;
+  background-color: rgb(20, 20, 40);
+  display: inline-block;
+}
+
+#dobitak {
+  color:white;
+  font-size: large;
+  cursor: pointer;
+
+  margin: 0.5rem;
+  margin-bottom: 2rem;
+  border: 1.5px solid lightsteelblue;
+  border-radius: 3rem;
+  background-color: rgb(20, 20, 40);
+  display: inline-block;
+}
+
+#kontejner-rezultata {
+  font-style: normal;
+  font-size: large;
+  color:white
+}
+
+
+@media only screen and (max-width: 900px) {
+
+  #aside-lijevo {
+    display: none;
+  }
+
+  #kontejner-igre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    padding: 2rem;
+    padding-bottom: 13rem;
+  
+    border-left: 3px solid rgb(30, 30, 50);
+    border-right: 3px solid rgb(30, 30, 50);
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+
+  #aside-desno {
+    display: none;
+  }
+}
+
+@media only screen and (min-height: 600px){
+
+  #kontejner-igre {
+    padding-bottom: 20rem;
+  }
+}
+
+@media only screen and (min-height: 700px){
+
+  #kontejner-igre {
+    padding-bottom: 27rem;
+  }
+}
+
+@media only screen and (min-height: 850px){
+
+  #kontejner-igre {
+    padding-bottom: 37rem;
+  }
+}
