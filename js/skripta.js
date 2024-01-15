@@ -81,7 +81,7 @@ function provjeriOdgovor(event, odgovor, trenutnoPitanje) {
 //korake ćemo opisati samo jednom, kod se ponavlja
 
 function prikaziKrajIgre() {
-  var osvojeno = osvojeniDobitak; //zadnje tačno odgovoreno pitanj
+  var osvojeno = osvojeniDobitak; //zadnje tačno odgovoreno pitanje
 
   Swal.fire({
     title: 'Igra gotova!',
@@ -136,7 +136,7 @@ function resetirajIgru() {
 
   //resetujemo vrijednost html elementa s id="osvojeni-dobitak" - ukupna suma novca ispod slike profesora u desnom aside elementu
   const osvojeniDobitakElement = document.getElementById('osvojeni-dobitak');
-  osvojeniDobitakElement.textContent = '0'; // Reset the content of the 'osvojeni-dobitak' element to '0'
+  osvojeniDobitakElement.textContent = '0';
 
   pocniIgru();
 }
